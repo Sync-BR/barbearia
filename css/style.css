@@ -65,5 +65,13 @@ main{
     margin-top: 10px;
     background-color: #014040;
     width: 100%;
-    height: max-content;
+    height: min-content;
+}
+
+#servicos{
+    margin-top: 10px;
+    background-color: #014040;
+    width: 100%;
+    height: min-content;
+    
 }

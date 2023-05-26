@@ -1,0 +1,145 @@
+#caixa_servicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: 40rem;
+    border-top:1px solid white;
+}
+    .servicos-texto h2{
+    text-align: center; 
+    font-family: 'Noto Serif', serif;   
+    font-size: 5em;
+    }
+
+.todos_servicos{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 2rem;
+    column-gap: 1rem;
+    grid-template-columns: 2fr 2fr;
+    width: auto;
+    height: min-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* Servico de cabelo */
+    .servico-cabelo{
+        display: block;
+        background-color: #3F7330;
+        width: auto;
+        height: auto;
+        border: 1px solid white;
+        padding-top: 1em;
+    }
+        .servico-cabelo h3{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+        }
+        .servico-cabelo p{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+/* Servico de barba */
+.servico-barba{
+    display: block;
+    background-color: #3F7330;
+    width: auto;
+    height: auto;
+    border: 1px solid white;
+    padding-top: 1em;
+}
+    .servico-barba h3{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2em;
+    }
+    .servico-barba p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+/* Servico sobracelha */
+    .servico-sobrancelha{
+            display: block;
+            background-color: #3F7330;
+            width: auto;
+            height: auto;
+            border: 1px solid white;
+            padding-top: 1em;
+        }
+        .servico-sobrancelha h3{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+        }
+        .servico-sobrancelha p{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+    /* Servico Tatto */
+    .servico-tatto{
+        display: block;
+        background-color: #3F7330;
+        width: auto;
+        height: auto;
+        border: 1px solid white;
+        padding-top: 1em;
+    }
+        .servico-tatto h3{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+        }
+        .servico-tatto p{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+/* Pintura */
+.servico-pintura{
+    display: block;
+    background-color: #3F7330;
+    width: auto;
+    height: auto;
+    border: 1px solid white;
+    padding-top: 1em;
+}
+    .servico-pintura h3{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2em;
+    }
+    .servico-pintura p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+/* Desenhos */
+.servico-desenhos{
+    display: block;
+    background-color: #3F7330;
+    width: auto;
+    height: auto;
+    border: 1px solid white;
+    padding-top: 1em;
+}
+    .servico-desenhos h3{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2em;
+    }
+    .servico-desenhos p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 1em;
+        padding-right: 1em;
+    }

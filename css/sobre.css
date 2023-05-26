@@ -2,26 +2,34 @@
     display: grid;
     grid-auto-flow: column;
     width:auto;
-    height: 800px;    
+    align-items: center;
+    height: 650px;    
     background-color:  #4178BF;
     margin-bottom: 2px;
+    border: 1px solid white;
+    z-index: 1;
 }
 #sobre_conteudos img{
     width: 800px;
-    height: 790px;
+    height: 525px;
     margin-top: 2px;
-    margin-left: 30.4%;
-    margin-bottom: 2px;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    
 }
     .sobre_conteudos_titulo{
         width: 80%;
-        margin-top: 2rem;
+        margin-bottom: 35rem;
+        
     }
         .sobre_conteudos_titulo h2{
             position: absolute;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-size: 60px;
             margin-left: 15%;
+            font-family: 'Bebas Neue', sans-serif;
+            
+
         }
         .sobre_conteudos_titulo p{
             position: absolute;
@@ -39,31 +47,81 @@
         height:5rem;
         margin-top: 25rem;
         margin-left: 11%;
+        border-radius: 40px;
         cursor: pointer;
     }
 
 #sobre_barbearia{
-    display: grid;
-    grid-auto-flow: column;
-   grid-template: subgrid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 600px;
 }
     .sobre_barbearia_img{
         width: 50%;
+      
     }
     .sobre_barbearia_img img{
         width: 600px;
-        height: 300px;
+        height: 400px;
+        border-radius: 10px;
+        margin-left: 5px;
+        
     }
+
     .sobre_barbearia_texto h2{
         margin-top: 10px;
         text-align: center;
-        font-size: 40px;
+        font-size: 80px;
     }
     .sobre_barbearia_texto p{
-        margin-top: 30px;
+        margin-top: 20px;
         padding-left: 1rem;
         padding-right: 1rem;
         text-align: justify;
         font-size: 20px;
-
+    }
+        .botao-galeria{
+            
+            width: 15rem;
+            height: 5rem;
+            background-color:#01260E; 
+            border: 1px solid white;
+            border-radius: 40px;
+            margin-left: 15rem;
+            margin-top: 5%;
+        }
+            .botao-galeria a{
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:30px;
+                color: white;
+            }
+/* Galeria */
+#galeria{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid white;
+}
+    #galeria h2{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 5em;
+        text-shadow: -4px -1px black;
+        letter-spacing: 10px;
+    }
+    .galeria-fotos{
+      border-top: 1px solid white;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem 10rem;
+    }
+    .galeria-fotos img{
+        margin-top: 1%;
+        width: 300px;
     }
