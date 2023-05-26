@@ -1,15 +1,23 @@
 #caixa-contato{
-    background-color: #01260E;
     display: flex;
     flex-direction: row;
+    height: 600px;
+    align-items: center;
+
 }
 .caixa-contato-all{
  display: flex;  
  flex-direction: row; 
  gap: 1rem; 
+ position: absolute;
+ left: 390px;
+ margin-top: 1rem;
+
  
 }
+
     .caixa-contato-texto p {
+        width: 70%;
         padding-top: 10px;
         margin-top: 2px;
     }
@@ -20,12 +28,34 @@
 
 
 /* Formulario */
-.formulario-caixa{
-    width: 20rem;
-    height: 3rem;
-    margin-bottom: 10px;
+.caixa-contato-texto-infor h2{
+    margin-top: 100px;
+    left: 390px;
+    letter-spacing: 5px;
+    font-size: 70px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow:  -2px 1px black;
+    position: absolute;
 }
-.form-mensagem{
-    width: 20rem;
-    height: 10rem;
+.caixa-contato-texto-infor h3{
+    margin-top: 180px;
+    width: 355px;
+    left: 390px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:  -2px 1px black;
+    position: absolute;
 }
+.contato-formulario {
+    margin-top: 20px;
+    margin-left: 60%;
+}
+    .formulario-caixa{
+        width: 25rem;
+        height: 4rem;
+        margin-bottom: 10px;
+    }
+    .form-mensagem{
+        width: 25rem;
+        height: 10rem;
+    }
