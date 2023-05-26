@@ -6,7 +6,7 @@
 
 body{
     background-color: black;
-    width: auto;
+    width: 100%;
     height: auto;
     color: white;
 }
@@ -55,7 +55,7 @@ nav{
     color: white;
 }
 
-main{
+#inicio{
     background-color: #262425;
     width: 100%;
     height: auto;
@@ -73,5 +73,10 @@ main{
     background-color: #014040;
     width: 100%;
     height: min-content;
-    
+}
+#contato{
+    margin-top: 10px;
+    background-color: #014040;
+    width: 100%;
+    height: min-content;
 }

@@ -1,0 +1,31 @@
+#caixa-contato{
+    background-color: #01260E;
+    display: flex;
+    flex-direction: row;
+}
+.caixa-contato-all{
+ display: flex;  
+ flex-direction: row; 
+ gap: 1rem; 
+ 
+}
+    .caixa-contato-texto p {
+        padding-top: 10px;
+        margin-top: 2px;
+    }
+    .caixa-contato-icones img{
+        width: 30px;
+    }
+
+
+
+/* Formulario */
+.formulario-caixa{
+    width: 20rem;
+    height: 3rem;
+    margin-bottom: 10px;
+}
+.form-mensagem{
+    width: 20rem;
+    height: 10rem;
+}
